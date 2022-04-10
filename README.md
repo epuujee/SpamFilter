@@ -9,7 +9,7 @@ data.head()
 ```
 
 ### Data Exploration
-<img src="images/countplot.png" height="400">
+<img src="images/countplot.png" height="600">
 
 ### Data Preprocessing
 * Cleaning text
@@ -18,7 +18,7 @@ data.head()
 * Lemmatization
 * Vectorization
 
-<img src="images/pairplot.png" height="400">
+<img src="images/pairplot.png" height="600">
 
 ### Model Building
 * Naïve Bayes
