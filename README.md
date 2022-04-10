@@ -9,7 +9,7 @@ data.head()
 ```
 
 ### Data Exploration
-<img src="images/countplot.png" height="600">
+<img src="images/countplot.jpg" height="600">
 
 ### Data Preprocessing
 * Cleaning text
@@ -18,7 +18,7 @@ data.head()
 * Lemmatization
 * Vectorization
 
-<img src="images/pairplot.png" height="600">
+<img src="images/pairplot.jpg" height="600">
 
 ### Model Building
 * Naïve Bayes
@@ -27,7 +27,7 @@ data.head()
 * Support Vector Machines
 
 ### Evaluating Models
-<img src="images/plot.png" height="600">
+<img src="images/plot.jpg" height="600">
 
 ### Deploying Naïve Bayes Model on Streamlit
 ```
