@@ -5,6 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+nltk.download('punkt')
 
 st.title("Spam Filter - Course Project")
 st.header("GCIS 523 - Statistical Computing")
