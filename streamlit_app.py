@@ -1,3 +1,4 @@
+from turtle import color
 import streamlit as st
 import pickle
 import string
@@ -6,6 +7,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 nltk.download('punkt')
+nltk.download('stopwords')
 
 st.title("Spam Filter - Course Project")
 st.header("GCIS 523 - Statistical Computing")
@@ -33,6 +35,6 @@ if st.button('Predict'):
     result = model.predict(vector_input)[0]
     
     if result:
-        st.header("Spam")
+        st.header("Spam", color)
     else:
         st.header("Not Spam")
