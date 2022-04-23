@@ -27,7 +27,7 @@ data.head()
 * Support Vector Machines
 
 ### Evaluating Models
-<img src="images/plot.jpg" height="600">
+<img src="images/results.png">
 
 ### Deploying Naïve Bayes Model on Streamlit
 ```
